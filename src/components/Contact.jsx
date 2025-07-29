@@ -101,20 +101,23 @@ const Contact = () => {
     <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact Me</h3>
+        <h3 className={styles.sectionHeadText}>Email Me</h3>
 
         <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
-          <InputField
-            label="Your Name"
+          {/* <InputField
+            label="Your  Name"
             name="name"
             value={form.name}
             onChange={handleChange}
             placeholder="Insert Your name here..."
             type="text"
           />
-          {nameError && <span className="text-red-500">{nameError}</span>}
+          {nameError && <span className="text-red-500">{nameError}</span>} */}
 
-          <InputField
+          <h1 className={styles.sectionSubText}> 
+          github.com.alphabet802@passinbox.com
+          </h1>
+          {/* <InputField
             label="Email Address"
             name="email"
             value={form.email}
@@ -122,23 +125,23 @@ const Contact = () => {
             placeholder="What's your email address?"
             type="email"
           />
-          {emailError && <span className="text-red-500">{emailError}</span>}
+          {emailError && <span className="text-red-500">{emailError}</span>} */}
 
-          <InputField
+          {/* <InputField
             label="Your Message"
             name="message"
             value={form.message}
             onChange={handleChange}
             placeholder="What you want to say...?"
             type="text"
-          />
+          /> */}
 
-          <button
+          {/* <button
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
           >
             {loading ? "Sending..." : "Send"}
-          </button>
+          </button> */}
           {confirmation && <p className="text-green-500">{confirmation}</p>}
         </form>
       </motion.div>
