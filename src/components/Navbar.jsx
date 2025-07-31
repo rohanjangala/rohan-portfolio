@@ -13,6 +13,11 @@ const Navbar = () => {
     window.open(resumeUrl);
   };
 
+  const toggleX = () => {
+    const xUrl = 'https://x.com/rohan_x2';
+    window.open(xUrl, '_blank');
+  }
+
   useEffect(() => {
     if (toggle) {
       setActive('');
@@ -42,7 +47,7 @@ const Navbar = () => {
           isSecondary ? 'secondary' : 'white'
         } hover:text-white text-[20px] font-medium cursor-pointer`}
       >
-        <button onClick={toggleResume}>Resume</button>
+        <button onClick={toggleX}>𝕏 🡥</button>
       </li>
     </ul>
   );
