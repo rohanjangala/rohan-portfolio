@@ -76,8 +76,8 @@ export const experiences = [
     iconBg: "#161329",
     date: "Oct 2024 - Feb 2025",
     points: [
-      "Contributed to NVIDIA’s Project Nemo as part of the DF Production team, developing high-quality prompt content for AI-driven tasks using SuperAnnotate tool.",
-      "Designed and optimized prompts for an AI-based DenseCaptioning model, processing 15-minute video datasets daily (Oct–Dec), enhancing global description, scene comprehension and automated video summarization.",
+      "Contributed to NVIDIA’s Project Nemo model dev in the DF Production team, developing high-quality prompt content for AI-driven tasks using SuperAnnotate tool.",
+      "Designed prompts for an AI-based DenseCaptioning model, processing 15-minute video datasets daily (Oct–Dec), enhancing global description, scene comprehension and automated video summarization.",
       "Developed end-to-end prompt content for AI-driven Visual Question Answering (VQA) using Mathematics and Engineering textbooks, annotating 25 textbook excerpts per day (Jan–Feb) to improve model accuracy in domain-specific reasoning.",
     ],
   },
