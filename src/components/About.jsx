@@ -40,7 +40,7 @@ const About = () => {
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am a digital professional graduated from SRM University and multilingual speaker with a passion for artificial intelligence, and software development, and ethical hacking. I always look forward to work that values innovation, collaboration, and continuous learning.
+        I am a digital professional graduated from SRM University and multilingual speaker with a passion for artificial intelligence, software development, and ethical hacking. I always look forward to work at a company or with people that value innovation, collaboration, and continuous learning.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

@@ -86,7 +86,7 @@ export const experiences = [
     company_name: "Center for Electric Mobility (CEM)",
     icon: cem,
     iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    date: "Jan 2024 - Sep 2024",
     points: [
       "Secured grant of ₹2,96,318 from TiHAN-IIT Hyderabad for startup initiative",
       "Developed and scaled autonomous vehicle (AV) technology as part of a final-year project at CEM using ROS.",
