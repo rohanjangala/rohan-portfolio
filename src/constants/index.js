@@ -19,7 +19,7 @@ import {
   threejs,
   mhft,
   sketcher,
-  invisible,
+  outlier,
   zensar,
   cem,
   mathwork,
@@ -60,13 +60,13 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "Advanced AI Trainer",
-    company_name: "Invisible AI",
-    icon: invisible,
+    title: "Advanced AI Researcher",
+    company_name: "Outlier AI",
+    icon: outlier,
     iconBg: "#161329",
     date: "Jun 2025 - Present",
     points: [
-      "Compared pro Gemini and Open AI models to evaluate response quality by designing prompts and challenging models.",
+      "Contributed to projects Psychic, Kadabra & Alakazam, and Kepler RLHF as a subject matter expert in Hindi and Mathematics.",
     ],
   },
   {

@@ -1,5 +1,6 @@
 // Import company logos
 import invisible from "./company/invisible.png";
+import outlier from "./company/outlier.png";
 import zensar from "./company/zensar.png";
 import cem from "./company/cem.png";
 import mathwork from "./company/mathwork.png";
@@ -42,6 +43,7 @@ import close from "./close.svg";
 
 export {
   invisible,
+  outlier,
   zensar,
   cem,
   mathwork,
