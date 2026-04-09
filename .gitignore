@@ -5,8 +5,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # Build outputs
-dist/
-build/
+# dist/ and build/ should NOT be ignored as they're deployed to gh-pages
+# build/
 
 # Environment variables
 .env
